@@ -1,0 +1,83 @@
+.menu {
+    background: #fbfafa;
+}
+
+.van-search {
+    width: 100%;
+}
+
+.productType_box {
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    .type_one {
+        flex: 1;
+        text-align: center;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    p {
+        margin: -0.1rem 0;
+
+    }
+
+    .active {
+        color: #0b34bb;
+        font-weight: 500;
+    }
+
+    // 拿铁的图片和文字不在一条中轴，让“拿铁”向左微调2px
+    .latte {
+        position: relative;
+        left: -2px;
+    }
+}
+
+.productList {
+    padding-bottom: 100px;
+    .productItem {
+        display: flex;
+        // height: 100px;
+        margin: 10px;
+        background: white;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+
+        .pImg {
+            flex: 1;
+            height: 100%;
+            display: flex;
+
+            img {
+                height: 80%;
+                margin: auto;
+            }
+        }
+
+        .name {
+            flex: 2;
+            span{
+                display: block;
+                left: 10px;
+                position: relative;
+                line-height: 20px;
+            }
+        }
+
+        .price {
+            flex: 1;
+            text-align: center;
+            font-size: 14px;
+            color: #0934b9;
+            font-weight: 600;
+        }
+    }
+}

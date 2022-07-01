@@ -1,0 +1,124 @@
+.order {
+    padding-bottom: 100px;
+}
+
+.address_box{
+    margin: 10px;
+    padding: 15px 10px 15px 10px;
+    background: white;
+    font-size: 15px;
+    .center{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        .name{
+            font-size: 14px;
+            color: #0c34ba;
+            font-weight: bold;
+        }
+        .phone{
+            padding: 0 20px;
+        }
+        .default{
+            background: #0c34ba;
+            color: white;
+            border-radius: 10px;
+            padding: 1px 10px 1px 10px;
+        }
+    }
+}
+.orderData{
+    margin: 10px;
+    background: white;
+    padding:10px;
+    
+    .title{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .orderItem{
+        display: flex;
+        background: white;
+        margin-bottom: 15px;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            height: 80px;
+        }
+        .content {
+            height: 80%;
+            width: 100%;
+            align-items: center;
+            padding: 10px;
+            .top {
+                display: flex;
+                padding-bottom: 7px;
+                color: black;
+                .rule{
+                    padding-left: 20px;
+                    font-size: 11px;
+                    color: gray;
+                }
+            }
+            .enname{
+                color: gray;
+                font-size: 10px;
+            }
+            .bottom {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10%;
+                .price{
+                    color: #143fcc;
+                    font-weight: 700;
+                }
+                .count{
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+    .sum{
+        padding: 0 10px;
+        .bottom{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .price{
+                font-size: 16px;
+                color: #143fcc;
+                font-weight: 700;
+            }
+        }
+    }
+}
+.submit{
+    margin: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 90%;
+    .van-button{
+        background: #0c34ba;
+
+    }
+}
+.van-popup{
+    h3{
+        padding-top: 10px;
+        padding-left: 22px;
+    }
+    .van-address-item .van-radio__icon--checked .van-icon {
+        background-color: #0c34ba;
+        border-color: #0c34ba;
+    }
+    .van-tag--danger {
+        background-color: #0c34ba;
+    }
+    .van-button--danger {
+        background-color: #0c34ba;
+        border: 0.02667rem solid #0c34ba;
+    }
+}
