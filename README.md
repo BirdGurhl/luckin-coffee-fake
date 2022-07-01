@@ -1,4 +1,4 @@
-# muban
+# luckin-coffee-fake
 
 ## Project setup
 ```
