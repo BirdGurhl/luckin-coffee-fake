@@ -23,8 +23,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 登录注册：
-
 <img src="https://github.com/BirdGurhl/luckin-coffee-fake/blob/master/screen%20shots/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C.gif" width="365" height="619"/>
 添加购物车：
-
 <img src="https://github.com/BirdGurhl/luckin-coffee-fake/blob/master/screen%20shots/%E6%B7%BB%E5%8A%A0%E8%B4%AD%E7%89%A9%E8%BD%A6.gif" width="365" height="619"/>
