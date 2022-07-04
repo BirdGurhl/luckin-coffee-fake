@@ -16,8 +16,10 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 其他事项
+```
+由于项目部分后端接口有点问题，本项目没能继续完善订单模块和个人中心模块
+```
 
 ### 部分运行截图
 
