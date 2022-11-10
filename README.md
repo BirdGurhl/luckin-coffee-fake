@@ -26,7 +26,7 @@ npm run build
 
 登录注册：
 
-<img src="https://github.com/BirdGurhl/luckin-coffee-fake/blob/master/screen%20shots/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C.gif" width="316" height="685"/>
+
 
 添加购物车：
 
